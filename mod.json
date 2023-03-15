@@ -1,0 +1,15 @@
+{
+	"Name": "MapLooper.Pan_da",
+	"Description": "A MapLooper due to unable edit playlist in docker.",
+	"Version": "0.0.1",
+	"LoadPriority": 0,
+    "Scripts": [
+        {
+			"Path": "MapLooper.nut",
+			"RunOn": "SERVER && MP",
+			"ServerCallback": {
+				"After": "MLMain_Init"
+			}
+		}
+    ]
+}
